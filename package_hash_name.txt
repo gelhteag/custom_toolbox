@@ -1,0 +1,4 @@
+ h = hashlib.new('sha512_256')
+>>> h.update(b"custom_toolbox")
+>>> h.hexdigest()
+'568bfc7bd628738cd63e870d863e6e5ab9c60cbc4843f6e41cdf095ddc0a254d'
